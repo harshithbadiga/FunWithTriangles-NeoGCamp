@@ -2,7 +2,7 @@ var quizForm = document.querySelector("#quiz-questions")
 var checkBtn = document.querySelector("#check-score-btn")
 var outputDiv = document.querySelector(".output")
 
-const correctAnswer = ["90", "right angled"]
+const correctAnswer = ["90", "right triangle"]
 
 
 function checkAnswers() {
@@ -13,7 +13,6 @@ function checkAnswers() {
         if (value === correctAnswer[index]) {
             score++
         }
-        score--
         index++
     }
     outputDiv.innerText = "Your total score is " + score

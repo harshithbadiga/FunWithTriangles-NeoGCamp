@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 2rem;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 2px white solid;
+    background-color: darkcyan;
+    color: white;
+    outline: none;
+}
+form{
+    padding: 2rem;
+}
+.form-question{
+    padding: 1rem;
+}
