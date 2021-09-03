@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Traingles</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="quiz-questions">
+            <div class="form-question">
+                <p>
+                    What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+                </p>
+                <label>
+                    <input type="radio" name="question-1" value="45"/> 45
+                </label>
+                <label>
+                    <input type="radio" name="question-1" value="90"/> 90
+                </label>
+                <label>
+                    <input type="radio" name="question-1" value="60"/> 60
+                </label>
+            </div>
+            <div class="form-question">
+                <p>
+                    If a triangle has an angle of 90 degrees, what is it called?
+                </p>
+                <label>
+                    <input type="radio" name="question-2" value="obtuse"/> obtuse
+                </label>
+                <label>
+                    <input type="radio" name="question-2" value="acute"/> acute
+                </label>
+                <label>
+                    <input type="radio" name="question-2" value="right angled"/> right angled
+                </label>
+            </div>
+        </form>
+        <div>
+            <button id="check-score-btn">Check score</button>
+        </div>
+        <div>
+            <p class="output"></p>
+        </div>
+    </div>
+    <script src="/triangle.form.js"></script>
+</body>
+
+</html>
