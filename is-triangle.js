@@ -1,6 +1,7 @@
 var userAngles = document.querySelectorAll(".angles")
 var checkAnswer = document.querySelector(".checkme")
 var output = document.querySelector(".output")
+var reset = document.querySelector(".reset")
 
 function triangleOrNot() {
     checkSum(Number(userAngles[0].value), Number(userAngles[1].value), Number(userAngles[2].value))
@@ -25,3 +26,6 @@ function checkSum(angle1, angle2, angle3) {
 
 
 checkAnswer.addEventListener("click", triangleOrNot)
+reset.addEventListener("click", () => {
+    location.reload()
+} )

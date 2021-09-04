@@ -1,6 +1,7 @@
 var userInput = document.querySelectorAll(".user-input")
 var areaCheck = document.querySelector(".btn")
 var output = document.querySelector(".output")
+var reset = document.querySelector(".reset")
 
 
 function areaOfTriangle(){
@@ -24,3 +25,6 @@ function area(num1,num2){
 
 
 areaCheck.addEventListener("click", areaOfTriangle)
+reset.addEventListener("click", () => {
+    location.reload()
+} )
