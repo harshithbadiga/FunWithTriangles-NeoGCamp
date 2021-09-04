@@ -84,4 +84,7 @@ h1{
 .entries{
     margin: 0 auto;
 }
+.active{
+    color: red;
+}
 
