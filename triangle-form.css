@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(197, 202, 201);
+    padding: 1.5rem;
+}
 
 .container{
     display: flex;
@@ -26,4 +30,20 @@ form{
 }
 .form-question{
     padding: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 0.9rem;
 }
