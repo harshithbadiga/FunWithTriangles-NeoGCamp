@@ -2,7 +2,7 @@ var quizForm = document.querySelector("#quiz-questions")
 var checkBtn = document.querySelector("#check-score-btn")
 var outputDiv = document.querySelector(".output")
 
-const correctAnswer = ["90", "right triangle"]
+const correctAnswer = ["90", "right triangle", "yes"]
 
 
 function checkAnswers() {
